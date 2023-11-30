@@ -19,7 +19,7 @@ const Question = ({ question, answer, onAnswerChange, onNextButtonClick, onReset
                     checked={answer === optionIndex.toString()}
                     onChange={() => onAnswerChange(optionIndex.toString())}
                   />
-                  <p className="optiuni" key={optionIndex} className={answer === optionIndex.toString() ? 'selected-answer' : ''}>{option}</p>
+                  <p  key={optionIndex} className={answer === optionIndex.toString() ? 'selected-answer' : ''}>{option}</p>
                 </label>
               ))}
           </div>
