@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const Question = ({ question, answer, onAnswerChange, onNextButtonClick, onResetButtonClick }) => {
 
